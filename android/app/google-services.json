@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "90782672853",
+    "project_id": "tasqrauth",
+    "storage_bucket": "tasqrauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90782672853:android:07e4bed3e20fb3e087ff5c",
+        "android_client_info": {
+          "package_name": "com.example.tasqrauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90782672853-l99p6pfh4rh1m3lnh4pe46hlojie0d4n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUvxATd2kOZa3IpiHVk4T7uUi-gdP86gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90782672853-l99p6pfh4rh1m3lnh4pe46hlojie0d4n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
