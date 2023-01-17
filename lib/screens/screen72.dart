@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:tasqrauth/screens/screen71.dart';
+import 'package:tasqrauth/screens/screen1.dart';
 
 FirebaseAuth _auth = FirebaseAuth.instance;
 
@@ -48,7 +48,9 @@ class _SigninState extends State<Signin> {
                           email: ema.text, password: pas.text)
                       .then((x) {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: ((context) => Signup())));
+                        MaterialPageRoute(builder: ((context) => Home())));
+                  }).onError((error, stackTrace) {
+                    print("Error ${error.toString()}");
                   });
                 },
                 child: Text('Submit'))

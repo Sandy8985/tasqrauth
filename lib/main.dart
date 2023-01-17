@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:tasqrauth/firebase_options.dart';
+import 'package:tasqrauth/screens/screen71.dart';
 
-import 'screens/screen72.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,6 +18,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Signin());
+    return MaterialApp(home: Signup());
   }
 }
